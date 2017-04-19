@@ -1,0 +1,21 @@
+Robo Mongo Installation Guide
+==============================
+
+#Download robongo from official site or from terminal
+********wget https://download.robomongo.org/0.9.0/linux/robomongo-0.9.0-linux-x86_64-0786489.tar.gz
+
+#Extract the gz file in a folder
+********tar -xvzf robomongo-0.9.0-linux-x86_64-0786489.tar.gz
+
+#Create a target directiory for installing robomongo
+********sudo mkdir /usr/local/bin/robomongo
+
+#Move the extracted directiory to the robomongo folder
+********sudo mv  robomongo-0.9.0-linux-x86_64-0786489/* /usr/local/bin/robomongo
+
+#Change directiory
+********cd /usr/local/bin/robomongo/bin
+
+#Change directory mode
+********sudo chmod +x robomongo ## run command only if robomongo isn't excutable file
+./robomongo
