@@ -4,15 +4,16 @@
   <artifactId>mongoExample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
    <dependencies>
-        <dependency>
-
-            <groupId>org.mongodb</groupId>
-
-            <artifactId>mongo-java-driver</artifactId>
-
-            <version>2.10.1</version>
-
-        </dependency>
+	<dependency>
+		<groupId>org.mongodb</groupId>
+		<artifactId>mongo-java-driver</artifactId>
+		<version>2.10.1</version>
+	</dependency>
+	<dependency>
+		<groupId>org.mockito</groupId>
+		<artifactId>mockito-core</artifactId>
+		<version>2.7.22</version>
+	</dependency>
     </dependencies>
      <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
